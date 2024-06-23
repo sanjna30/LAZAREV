@@ -95,6 +95,7 @@ nav button svg{
     width: 100%;
     background-color: #111;
     display: flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -869,54 +870,208 @@ nav button svg{
     font-weight: 540;
 
 }
-#page10 #cards-top{
+#page10 #top{
     display: flex;
-    margin: 6vw;
+    padding: 0.8vw;
+    justify-content: center;
+
+   }
+   #page10 #bottom{
+    display: flex;
+    padding: 0.8vw;
+    align-items: start;
+    margin: 2vw;
+   }
+  
+   #page10 button {
+    background-color: #0DA34E;
+    font-weight: 600;
+    border-radius: 50%;
+    border: none;
+    height: 150px;
+    width: 150px;
+
+   
+}
+
+#page10 button i {
+    font-size: 2rem;
+}
+   #page10 .card{
+    height: 250px;
+    width: 450px;
     padding: 2vw;
-    gap: 20px;
-
-
-}
-#page10 .card-t {
-    height: 300px;
-    width: 400px;
-    background-color: brown;
-    overflow: hidden;
+    margin: 10px;
+    background-color: #333;
+   }
+   
+ #page10 .card h1{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 2vw;
+   }
+   #page10 .card i{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 2vw;
+    margin-left: 12vw;
     
+   }
+  
+   #page10 .card p{
+    color: #FFFFFF;
+    margin-top: 2.5vw;
+    margin-right: 2vw;
+    font-size: 12px;
+     font-weight:650;
+
+   }
+   #page11 {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    padding: 10vh 10vw;
 }
-.card-t h2{
+#page11>h1 {
+    font-size: 5.5vw;
+    padding-left: 23vw;
+    color: #000;
+    padding-right: 5vw;
+    line-height: 5.8vw;
+    padding-bottom: 10vh;
+    border-bottom: 1px solid #dadada;
+}
+#page11-content {
+  
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 8vh 0;
+}
+#page11-content #right-11 {
+    width: 70%;
+}
+#page11-content #right-11 p {
     font-size: 1.5vw;
-    margin-left: 10px;
-    margin-top: 10px;
-
+    color: #000;
+    margin-bottom: 5vh;
+    width: 80%;
 }
-.card-t i{
-    font-size: 1.5vw;
-     margin-left: 20vw;
-     margin-right: 2vw;
-
-
-
+#blue-btn {
+    background-color: #4f5bff;
+    width: 15vw;
+    height: 3.5vw;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.card-t p{
-    font-size: 2px;
 
+#blue-btn h4 {
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.85vw;
+}
+
+#blue-btn h4 i {
+    font-size: 1.1vw;
     font-weight: 100;
-    
-
-
+    margin-left: 0.5vw;
 }
-#page10 #cards-bottom{
+#page11-bottom {
+    height: 44vh;
+    width: 100%;
+    border-top: 1px solid #dadada;
     display: flex;
-    margin: 6vw;
-    margin-top: -9vw;
-    padding: 2vw;
-    gap: 20px;
-
+    align-items: flex-start;
+    justify-content: center;
+  
+}
+#btm11-part1{
+    border-right: 1px solid #dadada;
+    width: 30%;
+    height: 100%;
 
 }
-#page10 .card-b {
-    height: 300px;
-    width: 400px;
-    background-color: rgb(243, 227, 14);
+#btm11-part2{
+    border-right: 1px solid #dadada;
+    width: 28%;
+    height: 100%;
+    
+}
+#btm11-part3{
+    border-right: 1px solid #dadada;
+    width: 15%;
+    height: 100%;
+    
+}
+#btm11-part4{
+    border-right: 1px solid #dadada;
+    width: 15%;
+    height: 100%;
+    
+}
+#btm11-part5{
+   
+    width: 15%;
+    height: 100%;
+    
+}
+.btm11-parts{
+    padding: 3vh 0.6vw;
+
+}
+.btm11-parts h5{
+    color: #000;
+    font-weight:548;
+    font-size: 1vw;
+    margin-bottom: 4vh;
+
+}
+.btm11-parts h4 {
+    background-color: #111;
+    width: 75%;
+    padding: 5px 10px;
+    margin-bottom: 0.3vh;
+    border-radius: 50px;
+    font-size: 0.85vw;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+
+}
+.btm11-parts h4 span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: #333;
+    padding: 0.5vw;
+    border-radius: 50%;
+    margin-right: 1vw;
+}
+#btm11-part2 h4:nth-child(2){
+    transform: translateX(0);
+}
+#btm11-part2 h4:nth-child(3){
+    transform: translateX(10%);
+}
+#btm11-part2 h4:nth-child(4){
+    transform: translateX(20%);
+}
+#btm11-part2 h4:nth-child(5){
+    transform: translateX(30%);
+}
+#btm11-part2 h4:nth-child(6){
+    transform: translateX(40%);
+}
+#btm11-part2 h4:nth-child(7){
+    transform: translateX(50%);
+}
+#page12{
+    height: 100vh;
+    background-color: #111;
+
 }
