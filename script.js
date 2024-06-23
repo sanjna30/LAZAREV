@@ -165,9 +165,9 @@ function page11Animation(){
    
 locomotiveAnimation();
 
-// loadingAnimation();
+loadingAnimation();
 
-// navAnimation();
+navAnimation();
 
 page2Animation();
 
